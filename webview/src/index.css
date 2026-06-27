@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  /* VS Code Colors mapped for Tailwind */
+  --color-vscode-bg: var(--vscode-editor-background);
+  --color-vscode-fg: var(--vscode-foreground);
+  --color-vscode-panel: var(--vscode-panel-background, #1e1e1e);
+  --color-vscode-sidebar: var(--vscode-sideBar-background, #252526);
+  --color-vscode-activity: var(--vscode-activityBar-background, #333333);
+  --color-vscode-status: var(--vscode-statusBar-background, #007acc);
+  --color-vscode-title: var(--vscode-titleBar-activeBackground, #333333);
+  --color-vscode-secondary-fg: var(--vscode-descriptionForeground, #cccccc);
+  --color-vscode-border: var(--vscode-panel-border, var(--vscode-widget-border, #444444));
+  --color-vscode-focus: var(--vscode-focusBorder, #007fd4);
+  
+  --color-vscode-button-bg: var(--vscode-button-background, #0e639c);
+  --color-vscode-button-hover: var(--vscode-button-hoverBackground, #1177bb);
+  --color-vscode-button-fg: var(--vscode-button-foreground, #ffffff);
+  --color-vscode-button-secondary-bg: var(--vscode-button-secondaryBackground, #3a3d41);
+  --color-vscode-button-secondary-hover: var(--vscode-button-secondaryHoverBackground, #45494e);
+  --color-vscode-button-secondary-fg: var(--vscode-button-secondaryForeground, #ffffff);
+
+  --color-vscode-input-bg: var(--vscode-input-background, #3c3c3c);
+  --color-vscode-input-fg: var(--vscode-input-foreground, #cccccc);
+  --color-vscode-input-border: var(--vscode-input-border, transparent);
+  --color-vscode-checkbox-bg: var(--vscode-checkbox-background, #3c3c3c);
+  --color-vscode-checkbox-border: var(--vscode-checkbox-border, transparent);
+  --color-vscode-checkbox-fg: var(--vscode-checkbox-foreground, #f0f0f0);
+  
+  --color-vscode-accent: var(--vscode-textLink-foreground, #3794ff);
+  --color-vscode-error: var(--vscode-errorForeground, #f14c4c);
+  --color-vscode-warning: var(--vscode-editorWarning-foreground, #cca700);
+  --color-vscode-success: var(--vscode-testing-iconPassed, #73c991);
+}
+
+body {
+  background-color: var(--vscode-editor-background, var(--vscode-sideBar-background, #252526));
+  color: var(--vscode-foreground, #cccccc);
+  font-family: var(--vscode-font-family, sans-serif);
+  margin: 0;
+  padding: 0;
+}

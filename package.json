@@ -1,0 +1,90 @@
+{
+  "name": "codeskin",
+  "displayName": "CodeSkin",
+  "description": "Make every developer's VS Code feel as personal as their phone — without touching a single config file.",
+  "version": "1.0.0",
+  "publisher": "Ranjitpawar",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ranjitx000/codesckin.git"
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "icon": "codelogo.ico",
+  "keywords": [
+    "theme",
+    "background",
+    "wallpaper",
+    "personalize",
+    "customize",
+    "aesthetic",
+    "dark theme",
+    "color extraction",
+    "Material You",
+    "productivity"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "codeskin.open",
+        "title": "CodeSkin: Open Settings",
+        "icon": "$(paintcan)"
+      },
+      {
+        "command": "codeskin.repair",
+        "title": "CodeSkin: Repair Installation",
+        "icon": "$(tools)"
+      },
+      {
+        "command": "codeskin.uninstall",
+        "title": "CodeSkin: Uninstall / Remove Backgrounds",
+        "icon": "$(trash)"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "codeskin.open",
+        "key": "ctrl+shift+k",
+        "mac": "cmd+shift+k"
+      }
+    ],
+    "menus": {
+      "editor/title": [
+        {
+          "command": "codeskin.open",
+          "group": "navigation"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src --ext ts",
+    "build:webview": "cd webview && npm run build",
+    "vscode:uninstall": "node ./out/uninstall.js"
+  },
+  "devDependencies": {
+    "@types/node": "18.x",
+    "@types/tinycolor2": "^1.4.6",
+    "@types/vscode": "^1.85.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "eslint": "^8.54.0",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "node-vibrant": "^3.2.1-alpha.1",
+    "tinycolor2": "^1.6.0"
+  }
+}
