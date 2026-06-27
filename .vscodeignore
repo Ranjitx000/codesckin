@@ -2,6 +2,7 @@
 .vscode-test/**
 src/**
 webview/**
+!webview/dist/**
 .gitignore
 yarn.lock
 webpack.config.js
