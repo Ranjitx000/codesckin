@@ -1,63 +1,444 @@
-# 🎨 CodeSkin - VS Code Personalizer
+# 🎨 CodeSkin – Personalize Visual Studio Code Your Way
 
-> **Make every developer's VS Code feel as personal as their phone — without touching a single config file.**
+> **Transform VS Code into a workspace that reflects your style.**
+> Add beautiful wallpapers, apply glassmorphism effects, and automatically generate themes from your favorite images—all from a simple, intuitive interface.
 
-[![Version](https://img.shields.io/visual-studio-marketplace/v/Ranjitpawar.codeskin?style=for-the-badge&color=blue)](https://marketplace.visualstudio.com/items?itemName=Ranjitpawar.codeskin)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/Ranjitpawar.codeskin?style=for-the-badge&color=brightgreen)](https://marketplace.visualstudio.com/items?itemName=Ranjitpawar.codeskin)
-
-CodeSkin is a powerful Visual Studio Code extension that allows you to fully customize the look and feel of your editor. By injecting custom CSS, CodeSkin enables you to set beautiful background images, apply glassmorphism effects, and automatically theme your workspace based on your wallpaper—just like Android's Material You!
-
----
-
-## ✨ Features
-
-- **🖼️ Background Image Upload**: Add custom background images to your Editor, Sidebar, or Terminal regions via a simple drag-and-drop interface.
-- **🎯 Precise Region Targeting**: Customize background image, blur radius, and opacity specifically for the Editor, Sidebar, and Terminal independently.
-- **🎨 Auto Color Extraction (Material You)**: With a single click, extract dominant colors from your wallpaper and automatically apply a matching, harmonious VS Code theme.
-- **🎛️ Profiles System**: Save your favorite setups as profiles and switch between complete configurations instantly.
-- **🖱️ User-Friendly UI**: A sleek webview interface that requires zero manual JSON configuration.
+<p align="center">
+  <img src="https://img.shields.io/visual-studio-marketplace/v/Ranjitpawar.codeskin?style=for-the-badge&label=Version" />
+  <img src="https://img.shields.io/visual-studio-marketplace/i/Ranjitpawar.codeskin?style=for-the-badge&label=Installs" />
+  <img src="https://img.shields.io/visual-studio-marketplace/r/Ranjitpawar.codeskin?style=for-the-badge&label=Rating" />
+  <img src="https://img.shields.io/badge/VS%20Code-1.85+-007ACC?style=for-the-badge&logo=visualstudiocode" />
+</p>
 
 ---
 
-## 🚀 Installation & Usage
+# 📖 Overview
 
-1. Open the Command Palette (`Ctrl+Shift+P` on Windows/Linux or `Cmd+Shift+P` on macOS).
-2. Type and select **`CodeSkin: Open Settings`** (or use the shortcut `Ctrl+Shift+K` / `Cmd+Shift+K`).
-3. In the CodeSkin Webview panel, **drag and drop** your favorite image.
-4. Use the intuitive sliders to adjust the **Opacity** and **Blur** for each region.
-5. Click **Extract Colors (Material You)** to automatically adapt your VS Code UI colors to match your new background!
+**CodeSkin** is a Visual Studio Code extension that lets you completely personalize your development environment without manually editing JSON settings.
 
----
+With an easy-to-use interface, you can:
 
-## ⚠️ Important Disclaimer: "Installation Corrupted" Warning
+* Set custom wallpapers
+* Add blur and transparency effects
+* Create a modern glassmorphism look
+* Automatically generate VS Code colors from your wallpaper
+* Save multiple workspace styles as reusable profiles
 
-CodeSkin achieves these deep customizations by injecting custom CSS directly into VS Code's core UI files (like `workbench.html`). 
-
-Because of this, VS Code will likely display an **"Installation Corrupted"** warning in the title bar after applying a theme. 
-
-**This is completely normal and safe.** It is simply VS Code detecting that its internal files have been modified. 
-- You can safely dismiss the warning.
-- Alternatively, click the gear icon on the warning and select **"Don't show again"**.
+Whether you prefer minimal, cyberpunk, anime, dark, nature, or aesthetic themes, CodeSkin helps you create a workspace you'll enjoy coding in every day.
 
 ---
 
-## 🔧 Troubleshooting & Uninstallation
+# ✨ Features
 
-If you ever experience visual glitches or wish to remove CodeSkin completely:
+## 🖼 Custom Backgrounds
 
-- **To Repair/Reset UI**: Open the Command Palette and run `CodeSkin: Repair Installation`. This will attempt to clean up the injected CSS and restore VS Code's default UI state.
-- **To Uninstall**: 
-  1. Open the Command Palette and run `CodeSkin: Uninstall / Remove Backgrounds` to clean up modified files.
-  2. Uninstall the extension from the VS Code Extensions panel.
-  3. Fully restart VS Code.
+Upload your favorite wallpapers directly inside VS Code.
+
+Supports backgrounds for:
+
+* ✅ Editor
+* ✅ Explorer
+* ✅ Terminal
+* ✅ Activity Bar
+* ✅ Status Bar
+* ✅ Title Bar
+
+Each section can have its own image.
 
 ---
 
-## 📋 Requirements
+## 🎛 Independent Controls
 
-- **Visual Studio Code**: Version `1.85.0` or later.
-- Make sure VS Code has the appropriate file system permissions to modify its own installation files.
+Customize every region separately.
+
+Adjust:
+
+* Blur
+* Opacity
+* Brightness
+* Image Position
+* Image Size
+* Overlay Effects
+
+No manual CSS editing required.
 
 ---
 
-*Crafted with ❤️ for developers who love a beautiful workspace.*
+## 🎨 Material You Theme Extraction
+
+Inspired by Android's **Material You**.
+
+With one click, CodeSkin:
+
+* Extracts dominant colors from your wallpaper
+* Generates matching VS Code colors
+* Creates a consistent UI theme automatically
+
+Your editor colors adapt to your wallpaper.
+
+---
+
+## 💎 Glassmorphism Effects
+
+Give VS Code a modern transparent appearance.
+
+Features include:
+
+* Frosted glass panels
+* Soft blur
+* Transparent sidebars
+* Elegant overlays
+
+Perfect for modern desktop setups.
+
+---
+
+## 📁 Profile Management
+
+Save multiple workspace styles.
+
+Example profiles:
+
+* Work
+* Night Coding
+* Cyberpunk
+* Anime
+* Minimal
+* OLED Dark
+
+Switch between them instantly.
+
+---
+
+## ⚡ Fast & Lightweight
+
+CodeSkin is optimized for performance.
+
+* Lightweight CSS injection
+* Fast image loading
+* Minimal impact on VS Code performance
+
+---
+
+## 🎯 Simple User Interface
+
+No configuration files.
+
+Everything can be managed from the built-in settings panel.
+
+* Upload images
+* Change settings
+* Apply themes
+* Restore defaults
+
+All with a few clicks.
+
+---
+
+# 📸 Preview
+
+<p align="center">
+  <img src="prev-1.png" width="100%" alt="Preview 1" />
+</p>
+
+### Editor Customization
+
+* Beautiful wallpapers
+* Adjustable opacity
+* Blur effects
+* Material You colors
+
+<p align="center">
+  <img src="prev-2.png" width="100%" alt="Preview 2" />
+</p>
+
+### Sidebar Personalization
+
+* Independent background
+* Glass effects
+* Transparency controls
+
+<p align="center">
+  <img src="prev-3.png" width="100%" alt="Preview 3" />
+</p>
+
+### Terminal Styling
+
+* Background image
+* Blur
+* Opacity
+* Matching colors
+
+<p align="center">
+  <img src="prev-4.png" width="100%" alt="Preview 4" />
+</p>
+
+### Video Demonstrations
+
+<video src="codesckin-2.mp4" controls="controls" muted="muted" width="100%"></video>
+
+<video src="codesckin-3.mp4" controls="controls" muted="muted" width="100%"></video>
+
+---
+
+# 🚀 Getting Started
+
+## 1. Install CodeSkin
+
+Install the extension from the Visual Studio Code Marketplace.
+
+---
+
+## 2. Open CodeSkin
+
+Open the Command Palette.
+
+**Windows / Linux**
+
+```
+Ctrl + Shift + P
+```
+
+**macOS**
+
+```
+Cmd + Shift + P
+```
+
+Run:
+
+```
+CodeSkin: Open Settings
+```
+
+---
+
+## 3. Upload Your Wallpaper
+
+Click
+
+```
+Change File
+```
+
+or simply drag and drop an image.
+
+Supported formats:
+
+* PNG
+* JPG
+* JPEG
+* WEBP
+
+---
+
+## 4. Customize
+
+Adjust:
+
+* Blur
+* Opacity
+* Background Position
+* Overlay
+* Theme Extraction
+
+Preview changes instantly.
+
+---
+
+## 5. Apply Theme
+
+Click
+
+```
+Apply
+```
+
+Your workspace updates immediately.
+
+---
+
+# ⚠ VS Code "Installation Corrupted" Warning
+
+## Why does this happen?
+
+CodeSkin customizes VS Code by safely injecting CSS into VS Code's UI.
+
+Because internal files are modified, VS Code may display:
+
+> **"Your installation appears to be corrupted."**
+
+This is **expected behavior**.
+
+It does **not** mean:
+
+* Your computer is infected
+* The extension is unsafe
+* VS Code is broken
+
+It simply means VS Code detected changes to its internal UI files.
+
+---
+
+## What should I do?
+
+You can safely:
+
+* Ignore the warning
+* Click **Don't Show Again**
+* Continue using VS Code normally
+
+---
+
+# 🔄 Restore Default VS Code
+
+If you want to remove all customizations:
+
+Open Command Palette
+
+```
+CodeSkin: Repair Installation
+```
+
+or
+
+```
+CodeSkin: Remove Backgrounds
+```
+
+Restart VS Code.
+
+Everything returns to the default appearance.
+
+---
+
+# 🗑 Uninstall
+
+1. Run
+
+```
+CodeSkin: Remove Backgrounds
+```
+
+2. Restart VS Code
+
+3. Uninstall CodeSkin
+
+No custom files remain.
+
+---
+
+# 📋 Requirements
+
+* Visual Studio Code **1.85.0** or newer
+* Windows, macOS, or Linux
+* Write permission to the VS Code installation directory
+
+---
+
+# ❓ Frequently Asked Questions
+
+### Does CodeSkin modify my source code?
+
+**No.**
+
+It only customizes the Visual Studio Code interface.
+
+---
+
+### Is it safe?
+
+Yes.
+
+CodeSkin only injects styling into the VS Code workbench.
+
+It never accesses or modifies your project files.
+
+---
+
+### Why do I see the "Installation Corrupted" message?
+
+Because VS Code detects that its UI files have been customized.
+
+This is normal for extensions that inject custom CSS.
+
+---
+
+### Will it slow down VS Code?
+
+No.
+
+CodeSkin is designed to be lightweight and optimized for everyday development.
+
+---
+
+### Can I restore the default UI?
+
+Yes.
+
+Run:
+
+```
+CodeSkin: Repair Installation
+```
+
+or
+
+```
+CodeSkin: Remove Backgrounds
+```
+
+Then restart VS Code.
+
+---
+
+# 🛣 Roadmap
+
+Planned features:
+
+* ✅ Animated wallpapers (GIF & Video)
+* ✅ Live wallpapers
+* ✅ Wallpaper collections
+* ✅ Cloud profile sync
+* ✅ One-click theme sharing
+* ✅ Custom CSS editor
+* ✅ Workspace-specific profiles
+* ✅ Community themes
+* ✅ AI-powered wallpaper recommendations
+
+---
+
+# 🤝 Contributing
+
+Found a bug or have a feature request?
+
+Contributions, issues, and suggestions are always welcome.
+
+---
+
+# ⭐ Support the Project
+
+If you enjoy using **CodeSkin**, please consider:
+
+* ⭐ Starring the GitHub repository
+* 📝 Leaving a review on the VS Code Marketplace
+* 💬 Sharing it with other developers
+
+Your support helps improve the extension and motivates future updates.
+
+---
+
+# 📄 License
+
+Released under the **MIT License**.
+
+---
+
+<p align="center">
+
+### ✨ Make VS Code feel truly yours.
+
+**Built with ❤️ by Ranjit Pawar**
+
+</p>
+
