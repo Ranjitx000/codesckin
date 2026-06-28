@@ -1,8 +1,8 @@
 {
-  "name": "codeskin",
-  "displayName": "CodeSkin",
+  "name": "codeskin-theme",
+  "displayName": "CodeSkin Theme",
   "description": "Make every developer's VS Code feel as personal as their phone — without touching a single config file.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "publisher": "Ranjitpawar",
   "engines": {
     "vscode": "^1.85.0"
@@ -15,7 +15,7 @@
     "Themes",
     "Other"
   ],
-  "icon": "codelogo.ico",
+  "icon": "codelogo.png",
   "keywords": [
     "theme",
     "background",
